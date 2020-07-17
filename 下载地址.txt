@@ -1,0 +1,75 @@
+https://datav.aliyun.com/tools/atlas/#&lat=31.80289258670676&lng=104.2822265625&zoom=4
+
+
+      var zhongguo = require('../../assets/map/data-china.json')
+      var hainan = require('../../assets/map/data-hainan.json')
+      var xizang = require('../../assets/map/data-xizang.json')
+      var zhejiang = require('../../assets/map/data-zhejiang.json')
+      var yunnan = require('../../assets/map/data-yunnan.json')
+      var xinjiang = require('../../assets/map/data-xinjiang.json')
+      var tianjin = require('../../assets/map/data-tianjin.json')
+      var sichuan = require('../../assets/map/data-sichuan.json')
+      var shanxi = require('../../assets/map/data-shanxi.json')
+      var shangxi = require('../../assets/map/data-shangxi.json')
+      var shanghai = require('../../assets/map/data-shanghai.json')
+      var shandong = require('../../assets/map/data-shandong.json')
+      var qinghai = require('../../assets/map/data-qinghai.json')
+      var ningxia = require('../../assets/map/data-ningxia.json')
+      var neimenggu = require('../../assets/map/data-neimenggu.json')
+      var liaoning = require('../../assets/map/data-liaoning.json')
+      var jilin = require('../../assets/map/data-jilin.json')
+      var jiangxi = require('../../assets/map/data-jiangxi.json')
+      var jiangsu = require('../../assets/map/data-jiangsu.json')
+      var hunan = require('../../assets/map/data-hunan.json')
+      var hubei = require('../../assets/map/data-hubei.json')
+      var henan = require('../../assets/map/data-henan.json')
+      var heilongjiang = require('../../assets/map/data-heilongjiang.json')
+      var hebei = require('../../assets/map/data-hebei.json')
+      var guizhou = require('../../assets/map/data-guizhou.json')
+      var guangxi = require('../../assets/map/data-guangxi.json')
+      var guangdong = require('../../assets/map/data-guangdong.json')
+      var gansu = require('../../assets/map/data-gansu.json')
+      var chongqing = require('../../assets/map/data-chongqing.json')
+      var aomen = require('../../assets/map/data-aomen.json')
+      var anhui = require('../../assets/map/data-anhui.json')
+      var beijing = require('../../assets/map/data-beijing.json')
+      var fujian = require('../../assets/map/data-fujian.json')
+      var xianggang = require('../../assets/map/data-xianggang.json')
+
+
+var cityMap = {
+          '中国': zhongguo,
+          '上海': shanghai,
+          '河北': hebei,
+          '山西': shangxi,
+          '内蒙古': neimenggu,
+          '辽宁': liaoning,
+          '吉林': jilin,
+          '黑龙江': heilongjiang,
+          '江苏': jiangsu,
+          '浙江': zhejiang,
+          '安徽': anhui,
+          '福建': fujian,
+          '江西': jiangxi,
+          '山东': shandong,
+          '河南': henan,
+          '湖北': hubei,
+          '湖南': hunan,
+          '广东': guangdong,
+          '广西': guangxi,
+          '海南': hainan,
+          '四川': sichuan,
+          '贵州': guizhou,
+          '云南': yunnan,
+          '西藏': xizang,
+          '陕西': shanxi,
+          '甘肃': gansu,
+          '青海': qinghai,
+          '宁夏': ningxia,
+          '新疆': xinjiang,
+          '北京': beijing,
+          '天津': tianjin,
+          '重庆': chongqing,
+          '香港': xianggang,
+          '澳门': aomen
+ }
